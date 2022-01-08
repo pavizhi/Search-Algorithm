@@ -5,6 +5,10 @@ To write a program to perform linear search and binary search using python progr
 1.	Hardware – PCs
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
+1. Get the array as input.
+2. Use the array.sort() function to find the linear search and binary search.
+3. print array.
+4. print the result.
 ## Linear Search:
 1.	Start from the leftmost element of array[] and compare k with each element of array[] one by one.
 2.	If k matches with an element in array[] , return the index.
@@ -84,10 +88,10 @@ k=eval(input())
 
 result=BinarySearch(arr,k,0,len(arr)-1)
 if (result==-1):
-    print(arr)
+    print(array)
     print("Element not found")
 else:
-    print(arr)
+    print(array)
     print("Element found at index: ",result)
 ```
 ## output:
